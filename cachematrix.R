@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This is Programming assignment 2 for R Programming course
+## The following functions below, gets the inverse of a matrix
 
-## Write a short comment describing this function
+## The first function gets the matrix while the other computes for the inverse of the matrix (Source of code: Tillis, 2016)
 
 makeCacheMatrix <- function(x = matrix()) {
 i <- NULL
@@ -16,9 +16,6 @@ i <- NULL
        setinverse = setinverse,
        getinverse = getinverse)
 }
-
-
-## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
